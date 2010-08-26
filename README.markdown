@@ -14,3 +14,7 @@ PHP_Codesniffer is installed via PEAR.
 After installing the standard you are able to use it with the _phpcs_ standard:
 
     phpcs --standard=Symfony <files>
+
+## Warning
+
+Only for PHP_CodeSniffer-1.3.0a1 and above

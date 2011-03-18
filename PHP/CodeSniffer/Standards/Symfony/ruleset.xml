@@ -15,7 +15,6 @@
   <rule ref="Generic.PHP.LowerCaseConstant"/>
   <!-- No spaces on square brackets -->
   <rule ref="Squiz.Arrays.ArrayBracketSpacing"/>
-  <rule ref="Squiz.ControlStructures.ControlSignature"/>
   <!-- Don't allow ELSEIF, just ELSE IF -->
   <rule ref="Squiz.ControlStructures.ElseIfDeclaration"/>
   <!-- Ensures there is a space between each condition of foreach loops -->

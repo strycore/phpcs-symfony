@@ -7,6 +7,8 @@
   <rule ref="Symfony.WhiteSpace.ScopeIndent"/>
   <!-- -->
   <rule ref="Generic.ControlStructures.InlineControlStructure"/>
+  <!-- -->
+  <rule ref="Symfony.ControlStructures.ControlSignature"/>
   <!-- ensures there is no space after cast tokens -->
   <rule ref="Generic.Formatting.SpaceAfterCast"/>
   <!-- ensures that variables are not passed by reference when calling a function -->

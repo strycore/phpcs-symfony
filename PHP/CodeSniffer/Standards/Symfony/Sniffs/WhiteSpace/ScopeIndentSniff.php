@@ -35,5 +35,5 @@ class Symfony_Sniffs_WhiteSpace_ScopeIndentSniff extends Generic_Sniffs_WhiteSpa
      *
      * @var int
      */
-    protected $indent = 2;
+    public $indent = 2;
 }

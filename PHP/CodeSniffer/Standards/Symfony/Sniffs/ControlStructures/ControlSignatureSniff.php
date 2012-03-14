@@ -55,10 +55,10 @@ class Symfony_Sniffs_ControlStructures_ControlSignatureSniff extends PHP_CodeSni
           'while (...);EOL',
           'while (...)EOL',
           'for (...)EOL',
-          'if (...)EOL',
+          'if (...) {EOL',
           'foreach (...)EOL',
           '}EOLelse if (...)EOL',
-          '}EOLelseEOL',
+          '} else {',
         );
 
     }//end getPatterns()

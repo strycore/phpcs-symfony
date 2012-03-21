@@ -48,10 +48,10 @@ class Symfony_Sniffs_ControlStructures_ControlSignatureSniff extends PHP_CodeSni
     protected function getPatterns()
     {
         return array(
-          'tryEOL',
+          'try {EOL',
           '{EOL...}',
-          'catch (...)EOL',
-          'doEOL',
+          'catch (...) {EOL',
+          'do {EOL',
           'while (...);EOL',
           'while (...) {EOL',
           'for (...) {EOL',
